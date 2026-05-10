@@ -164,23 +164,13 @@ abode-software-devops-pipeline/
 │   ├── inventory/
 │   │   └── hosts.ini                 # Server inventory
 │   ├── playbooks/
-│   │   ├── setup.yml                 # Main setup playbook
-│   │   ├── jenkins.yml               # Jenkins installation
-│   │   └── docker.yml                # Docker installation
-│   └── roles/                        # Reusable roles
+│   │   └──  setup.yml                 # Main setup playbook
 │
 ├── scripts/                          # Helper scripts
-│   ├── deploy.sh                    # Deployment script
-│   ├── test.sh                      # Test execution script
-│   └── cleanup.sh                   # Cleanup script
+│   └── deploy.sh                    # Deployment script
 │
-├── tests/                           # Test files
+└── tests/                           # Test files
 │   └── run-tests.sh                # Test runner
-│
-└── docs/                            # Documentation
-    ├── installation.md              # Setup guide
-    ├── pipeline-explained.md        # Pipeline details
-    └── images/                      # Diagrams and screenshots
 ```
 
 **🛠️ Technologies Used*
